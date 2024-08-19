@@ -192,6 +192,20 @@ font-family: "Open Sans", sans-serif;
     padding-left: 10px; 
     padding-right: 10px;
 }
+
+.header__inner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.top__title {
+    font-style: 40px;
+}
+
+.blockquote__text {
+    font-style: 16px;
+    max-width: 376px;
+}
 }
 
 @media (max-width: 480px){
