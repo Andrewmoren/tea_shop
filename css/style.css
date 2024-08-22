@@ -159,7 +159,17 @@ font-family: "Open Sans", sans-serif;
 
 @media (max-width: 860px){
     .menu__list {
-        display: none;
+        /* display: none; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 360px;
+        margin: 0 auto;
+        background-color: #fff;
+        display: block;
+        text-align: center;
+        padding: 60px;
     }
     .menu__btn{
         display: flex;
