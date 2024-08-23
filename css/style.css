@@ -171,6 +171,24 @@ font-family: "Open Sans", sans-serif;
         text-align: center;
         padding: 60px;
     }
+.menu__close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.menu__item {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Cormorant", serif;
+}
+
+.mobile-menu {
+    margin-top: 60px;
+    padding-top: 60px;
+    margin: 0 30px;
+    border-top: 2px solid #F7F2EA;
+}
+
     .menu__btn{
         display: flex;
     }
