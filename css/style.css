@@ -285,6 +285,12 @@ display: none;
  .blockquote__text {
     max-width: 640px ;
  }
+
+ .assortment__list {
+    /* gap: 0 6px; */
+    flex-wrap: wrap;
+    justify-content: center;
+ }
 }
 
 @media (max-width: 660px){
@@ -310,6 +316,11 @@ display: none;
     margin-bottom: 60px;
 }
 
+.assortment__list {
+    gap: 0 6px;
+    flex-wrap: wrap;
+}
+
 
 }
 
@@ -329,6 +340,9 @@ display: none;
 } */
 .menu__list {
     width: 360px;
+}
+.assortment {
+    margin-bottom: 60px;
 }
 }
 
@@ -361,4 +375,12 @@ display: none;
         margin-top: 70px;
         margin-bottom: 80px;
     }
+
+    .assortment__img {
+        min-width: 170px;
+    }
+    .assortment{ 
+        margin-bottom: 80px;
+    }
+
 }
