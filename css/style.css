@@ -147,6 +147,11 @@ display: none;
     margin-bottom: 150px;
 }
 
+.assortment__title {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
 .assortment__list {
     text-align: center;
     display: flex;
@@ -358,6 +363,9 @@ display: none;
 }
 
 @media (max-width: 360px){
+    .title{
+        margin-bottom: 10px;
+    }
     .logo {
         margin-right: 50px;
      }
